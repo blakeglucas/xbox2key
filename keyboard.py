@@ -19,7 +19,7 @@ class Keyboard:
 
     def press(self, key: str):
         if self.is_pressed(key):
-            logging.warning('Key is already pressed. Will not press again. Fuck you.')
+            logging.warning('Key is already pressed. Will not press again.')
         else:
             ko = self.__key_overrides.get(key, key)
             self.__keyboard_api.press(ko)
@@ -32,7 +32,7 @@ class Keyboard:
             self.__keyboard_api.release(ko)
             self.__pressed_keys.remove(key)
         else:
-            logging.warning('Key is not pressed. Will not release. Fuck you.')
+            logging.warning('Key is not pressed. Will not release.')
 
     def is_pressed(self, key: str):
         try:
