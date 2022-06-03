@@ -1,0 +1,37 @@
+l_joy_y:
+  joy: true
+  pos_keycode: 'w'
+  pos_thresh: 0.5
+  neg_keycode: 's'
+  neg_thresh: 0.5
+
+l_joy_x:
+  joy: true
+  pos_keycode: 'd'
+  pos_thresh: 0.5
+  neg_keycode: 'a'
+  neg_thresh: 0.5
+
+a:
+  keycode: ' '
+
+l_joy:
+  keycode: 'ctrl_l'
+
+back:
+  keycode: 'tab'
+
+dpad_left:
+  keycode: 'm'
+
+dpad_down:
+  keycode: 'z'
+
+dpad_up:
+  keycode: 'shift_l'
+
+l_trigger:
+  keycode: 'q'
+
+l_bump:
+  keycode: 'g'
